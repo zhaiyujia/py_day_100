@@ -3,6 +3,7 @@ set2 = {1, 43, 5}
 set3 = {1, 2}
 # 交集
 print(set1 & set2)
+print(set1.intersection(set2))
 # 并集
 print(set1 | set2)
 # 左差集

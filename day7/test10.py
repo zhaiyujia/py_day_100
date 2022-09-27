@@ -3,7 +3,7 @@ print(scores)
 item1 = dict(one=1, two=2, three=3, four=4)
 print(item1)
 item2 = dict(zip(['a','b','c'], '123'))
-print(item2)
+print(f'item2:{item2}')
 item3 = {num: num ** 2 for num in range(1,10)}
 print(item3)
 for key in scores:
